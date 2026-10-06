@@ -1,0 +1,210 @@
+%-------------------------
+% Resume in Latex
+% Author : Eldar Hasanli
+% Based off of: https://github.com/sb2nov/resume && https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Eldar Hasanli} \\ \vspace{1pt}
+    \small +994503905675 $|$ \href{mailto:x@x.com}{\underline{eldarhasanly@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/eldar-hasanli}} $|$
+    \href{https://github.com/...}{\underline{github.com/eldarhasanly}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Azerbaijan State Oil and Industry University}{Baku, Azerbaijan}
+      {Master of Science in Artificial Intelligence}{Sep. 2026 -- Expected June 2028}
+    \resumeSubheading
+      {French-Azerbaijani University}{Baku, Azerbaijan}
+      {Bachelor of Science in Computer Science, Joint degree with the University of Strasbourg}{Sep. 2022 -- June 2026}
+    \resumeSubheading
+      {Aspire Institute, Harvard Business School}{Online}
+      {Aspire Leaders Program}{Apr. 2026 -- June 2026}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Analytics / BI Developer Intern}{Feb. 2026 -- May 2026}
+      {Azerbaijan Airlines (AZAL) CJSC}{Baku, Azerbaijan}
+      \resumeItemListStart
+        \resumeItem{Analyzed operational and financial datasets using SQL to identify performance trends, cost variances, and business issues, providing insights to support management decision-making}
+        \resumeItem{Developed 10+ analytical dashboards and management reports using Power BI, translating complex financial and operational data into clear performance insights for business stakeholders}
+        \resumeItem{Cleaned, validated, transformed, and reconciled data from multiple sources using SQL and Power Query, identifying inconsistencies and preparing reliable datasets for further analysis}
+        \resumeItem{Analyzed 10+ financial and operational KPIs to identify performance trends, variances, and improvement opportunities, supporting management-level business decisions}
+        \resumeItem{Collaborated with Strategy and Business Development, AZAL Miles, the Operational Control Center, and other teams to understand business questions, define analytical requirements, and deliver data-driven insights}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {President}{Mar. 2025 -- Present}
+      {Magnat Intellectual Games Club}{Baku, Azerbaijan}
+      \resumeItemListStart
+        \resumeItem{Led a 300+ member student organization, delivering 30+ intellectual events that nearly doubled member engagement and attracted 3,000+ participants}
+        \resumeItem{Secured 5+ sponsorships, including Code Academy and LANDAU School, by building university and industry partnerships}
+        \resumeItem{Collaborated with ASOIU administration, alumni, sponsors, and student teams to coordinate activities, secure support, and expand the club’s institutional presence}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Airline Ticket Prices Analysis} $|$ \emph{Python, pandas, scikit-learn, Matplotlib, Seaborn}}{Apr. 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Analyzed a 1.5M+ row airline market dataset to identify key factors influencing average ticket fares}
+            \resumeItem{Performed statistical analysis and exploratory data analysis to assess market, route, carrier, and competition-related factors}
+            \resumeItem{Built and compared statistical and ML models to evaluate fare prediction performance}
+            \resumeItem{Translated model results and feature importance into actionable insights on airline pricing and market dynamics}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Atlas Labs HR Analytics Dashboard} $|$ \emph{Power BI}}{May 2026}
+          \resumeItemListStart
+            \resumeItem{Built an interactive Power BI dashboard to monitor demographic, employee performance, and attrition KPIs}
+            \resumeItem{Designed visualizations to identify workforce trends, patterns, and key drivers of employee attrition}
+            \resumeItem{Enabled dynamic analysis across employee and organizational dimensions to support workforce evaluation}
+            \resumeItem{Converted HR data into meaningful insights to inform strategic workforce decisions}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Tools \& Technologies}{: SQL (MSSQL, PostgresSQL, Oracle SQL), Python (pandas, NumPy, Matplotlib, Seaborn), Microsoft Excel, Power BI, Tableau, Databricks, Power Query, DAX, Git/GitHub} \\
+     \textbf{Analytics}{: Data Cleaning, Exploratory Data Analysis, Data Validation, Time Series Analysis, Data Modeling, Statistical Analysis, KPI Reporting, Data Visualization, Hypothesis Testing} \\
+     \textbf{Business Intelligence}{: Dashboard Development, Business Insights, Reporting Automation, Data Storytelling}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
